@@ -1,0 +1,124 @@
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1 {
+    margin: 0;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+.container {
+    max-height: 500px;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ed4a43;;
+    border-radius: 5px;
+    border: 2px solid #ed4a43;;
+    box-shadow: 0 0 10px #ed4a43;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+
+
+label, input{
+    color: #fff;
+    padding: 30px 0px 2px ;
+
+}
+
+input, textarea {
+   
+    width: 60%;
+   
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#submit {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left; /* Moves the submit button to the left */
+}
+button{
+    padding: 8px 16px ;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(67, 67, 238);
+    
+
+}
+
+/*footer*/
+section{
+    padding: 80px 13% 70px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 3.5rem;
+    
+}
+
+
+.footer-content h4{
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+    cursor: pointer;
+}
+.footer-content li{
+    color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+
+.section-footer p{
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+.section-footer .icons{
+    color: #fff;
+   font-size: 25px; 
+}
+.section-footer .icons :hover{
+    color: #ed4a43;;
+}
+
+
+.footer-content li:hover{
+    color: #ed4a43;
+ 
+  
+}
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        margin: 10px;
+    }
+}

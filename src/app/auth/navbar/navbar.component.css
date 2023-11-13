@@ -1,0 +1,65 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style the navbar */
+  nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  /* Style the logo */
+  .logo img {
+    width: 50px; /* Adjust the width as needed */
+  }
+  
+  /* Style the navigation links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px; /* Adjust the spacing between links as needed */
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Style the user options */
+  .user-options a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px; /* Adjust the spacing between login and signup as needed */
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .user-options {
+      display: none;
+    }
+  
+    .nav-links.active,
+    .user-options.active {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: #333;
+      padding: 10px;
+    }
+  }
+  
